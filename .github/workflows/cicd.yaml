@@ -31,7 +31,7 @@ jobs:
     - name: Docker tag
       run: |
         docker tag movie-backend:latest \
-          993900280376.dkr.ecr.us-east-2.amazonaws.com/movie-backend:v${{ github.run_number }}
+        993900280376.dkr.ecr.us-east-2.amazonaws.com/movie-backend:v${{ github.run_number }}
 
   
     - name: Docker push
